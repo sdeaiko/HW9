@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+.question-section {
+    padding: 2.5rem 80px 2.5rem 159px;
+    display: flex;
+    gap: 1.5rem;
+    }
+    
+    .question-section__left .question-section__title {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 4rem;
+    color: #2D2F30;
+    }
+    
+    .question-section__left .question-section__description {
+    font-style: normal;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    color: #4F4F4F;
+    }
+    
+    .question-section__left .question-section__button {
+    padding: 1rem 2.25rem;
+    width: 219px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    background: #094B72;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    color: white;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+    border: 1px solid transparent;
+    cursor: pointer;
+    }
+    
+    .question-section__right img {
+        margin-top: 40px;
+    border-bottom-left-radius: 2.5rem;
+    }

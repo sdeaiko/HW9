@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.testimonials {
+    height: 610px;
+    background: #f2f7ff;
+    box-sizing: border-box;
+    padding: 3rem 10rem;
+    text-align: center;
+}
+  
+.testimonials__title {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 4rem;
+    letter-spacing: 0.5px;
+    font-feature-settings: "salt" on, "liga" off;
+}
+  
+.testimonials__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 2rem;
+}
+  
+.testimonials__card {
+    /* Default / White */
+    background: #FFFFFF;
+    /* Dark Shadow */
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 32px;
+    min-height: 220px;
+}
+  
+.testimonials__card-heading {
+    font-family: 'Poppins';
+    color: #2D2F30;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+  
+.testimonials__card-text {
+    font-family: 'Poppins';
+    color: #4F4F4F;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    /* or 171% */
+}
+  
+.marginTop {
+    margin-top: 2rem;
+}
+  
+.testimonials__marginTop > div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: start;
+}
+  
+.testimonials__person > div:first-of-type {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+    font-feature-settings: 'salt' on, 'liga' off;
+    /* Neutral / Grey 8 */
+    color: #151617;
+}
+  
+.testimonials__person > div:last-of-type {
+    color: #4F4F4F;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5rem;
+    font-feature-settings: 'salt' on, 'liga' off;
+}
